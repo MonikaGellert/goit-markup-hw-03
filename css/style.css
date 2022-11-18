@@ -177,9 +177,7 @@ a {
 .link_2 {
   color: var(--main-font-color);
   font-size: 14px;
-  padding-bottom: 60px;
-  display: block;
-  flex-direction: column;
+  padding-bottom: 15px;
 }
 .link_3 {
   display: flex;
@@ -199,8 +197,7 @@ header:hover {
   color: var(--main-text-color);
   color: var(--secondary-text-color);
   justify-content: space-between;
-  margin-left: 215px;
-  margin-top: 24px;
+  margin: 0 auto;
 }
 .nav-container {
   display: flex;
@@ -263,4 +260,7 @@ figure {
 }
 .image_border {
   border-bottom: var(--main-text-color);
+}
+.footer_link {
+  flex-direction: column;
 }
