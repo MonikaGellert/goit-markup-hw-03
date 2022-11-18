@@ -19,6 +19,7 @@ body {
 ul {
   list-style: none;
   display: flex;
+  padding-inline-start: 0px;
 }
 .head_1 {
   font-weight: 900;
@@ -55,6 +56,7 @@ ul {
   border-radius: 4px;
   background: #f5f4fa;
   cursor: pointer;
+  margin-right: 8px;
 }
 .button_2:hover,
 .button_1:hover {
@@ -86,11 +88,14 @@ ul {
   margin-left: 0;
   margin-right: 0;
   padding: auto;
+  padding-bottom: 50px;
+  width: 370px;
 }
 .section_6 {
-  margin-top: 94px;
+  padding-top: 94px;
+  padding-bottom: 50px;
   justify-content: center;
-  align-items: center;
+  display: flex;
 }
 .footer {
   background-color: var(--main-background-color);
@@ -111,7 +116,7 @@ ul {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
-  text-align: center;
+  text-align: left;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
   background-color: #ffffff;
@@ -123,7 +128,7 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-  text-align: center;
+  text-align: left;
 }
 .logo {
   color: var(--main-underline-color);
@@ -173,12 +178,15 @@ a {
   color: var(--main-font-color);
   font-size: 14px;
   padding-bottom: 60px;
+  display: block;
+  flex-direction: column;
 }
 .link_3 {
   display: flex;
 }
 header:hover {
   border-bottom: var(--main-underline-color);
+  margin: 0 auto;
 }
 
 .container {
@@ -234,13 +242,10 @@ header:hover {
   background-color: #f5f4fa;
 }
 figure {
-  padding-left: 30px 0;
+  padding-left: 30px;
+  margin: 0;
 }
 
-.footer-items {
-  display: block;
-  flex-direction: column;
-}
 .section_items figure {
   margin: 0;
   margin-right: 30px;
@@ -251,4 +256,11 @@ figure {
   align-items: center;
   margin: 0 auto;
   background-color: #f5f4fa;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.image_border {
+  border-bottom: var(--main-text-color);
 }
