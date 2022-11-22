@@ -126,6 +126,9 @@ ul {
   padding-top: 0;
   padding-bottom: 94px;
 }
+.header_nav {
+  display: flex;
+}
 .head_4 {
   font-weight: 700;
   font-size: 14px;
@@ -158,7 +161,6 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 30px;
-  margin-right: 93px;
 }
 
 .logo_3 {
@@ -222,6 +224,7 @@ header:hover {
   color: var(--main-text-color);
   color: var(--secondary-text-color);
   margin: 0 auto;
+  gap: 345px;
 }
 .nav-container {
   display: flex;
@@ -249,7 +252,11 @@ header:hover {
 }
 
 .nav {
-  margin-right: 46px;
+  display: flex;
+}
+.nav-link {
+  display: inline-flex;
+  gap: 46px;
 }
 .link_4 {
   padding-left: 46px;
