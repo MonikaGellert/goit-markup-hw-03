@@ -68,7 +68,6 @@ ul {
 }
 .section_3 {
   background-color: #f5f4fa;
-  width: 1600px;
   height: 648px;
   margin: 0 auto;
 }
@@ -219,10 +218,10 @@ header:hover {
 }
 .header-container {
   display: flex;
-  color: var(--main-text-color);
   color: var(--secondary-text-color);
   margin: 0 auto;
-  gap: 345px;
+  max-width: 1200;
+  justify-content: space-between;
 }
 .nav-container {
   display: flex;
