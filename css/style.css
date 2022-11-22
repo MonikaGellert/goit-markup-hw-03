@@ -111,7 +111,7 @@ ul {
   background-color: var(--main-background-color);
   color: var(--main-font-color);
   margin: 0 auto;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
 .team-header {
   font-weight: 700;
@@ -158,7 +158,7 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 30px;
-  margin-right: 93px;
+  gap: 93px;
 }
 
 .logo_3 {
@@ -195,7 +195,6 @@ a {
 .link {
   color: var(--secondary-text-color);
   font-size: 14px;
-  padding-right: 50px;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -203,6 +202,7 @@ a {
   color: var(--main-font-color);
   font-size: 14px;
   padding-bottom: 15px;
+  margin-bottom: 0;
 }
 .nav_link {
   display: flex;
@@ -222,6 +222,7 @@ header:hover {
   color: var(--main-text-color);
   color: var(--secondary-text-color);
   margin: 0 auto;
+  gap: 345px;
 }
 .nav-container {
   display: flex;
@@ -229,7 +230,6 @@ header:hover {
   margin: 0 auto;
 }
 .flex-container_2 {
-  margin-left: 200px;
   margin: 0 auto;
 }
 .footer_logo {
@@ -256,8 +256,8 @@ header:hover {
 }
 
 .li-item {
-  gap: 30px;
   margin: 0 auto;
+  margin-right: 50px;
 }
 
 .header_2 {
@@ -326,4 +326,8 @@ figure {
 .text_font {
   text-align: center;
 }
->>>>>>> 179efeb7a1796f7160f0c35879bb43e30ea52013
+
+.flex {
+  display: flex;
+  padding-top: 18px;
+}
