@@ -78,6 +78,7 @@ ul {
 }
 .section_3 {
   background-color: var(--icone_background);
+
   height: 648px;
   margin: 0 auto;
 }
@@ -371,6 +372,7 @@ figure {
 .icons {
   margin: 25px 100px;
 }
+
 .social_media-box {
   display: flex;
   justify-content: center;
