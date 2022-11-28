@@ -392,7 +392,7 @@ figure {
   background-size: contain;
   background-position: center;
   background-color: #afb1b8;
-  fill: #afb1b8;
+  fill: red;
 }
 .footer_social {
   display: flex;
@@ -425,7 +425,7 @@ figure {
   background-position: center;
   background-repeat: no-repeat;
   background-color: var(--main-underline-color);
-  fill: var(--main-font-color);
+  fill: red;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -496,5 +496,22 @@ figure {
 .image_padding:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+}
+.our_team-box {
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-right: 30px;
+
+  width: 270px;
+  background-color: var(--main-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.btn_active:hover,
+.btn_active:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   cursor: pointer;
 }
